@@ -1,0 +1,19 @@
+title: Introduction to Python 2.0
+description: >-
+  Python is a general-purpose programming language that is becoming ever more
+  popular for data science. Companies worldwide are using Python to harvest
+  insights from their data and gain a competitive edge. 
+template:
+  repo: introduction-to-python-2.0-template
+  name: introduction-to-python-2.0
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
